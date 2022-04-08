@@ -46,6 +46,7 @@ async function selectSource(source) {
     .getUserMedia(constraints);
 
   // Preview the source in a video element
+  const videoElement = document.querySelector('video');
   videoElement.srcObject = stream;
   videoElement.play();
 
