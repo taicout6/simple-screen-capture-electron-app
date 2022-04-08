@@ -1,0 +1,1 @@
+const videoSelectBtn = document.getElementById('videoSelectBtn');
